@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a{
+            text-decoration: none;
+        }
+        .page-top{
+            width: 100%;
+            height: 14.8vh;
+            background-color: rgb(101, 100, 98);
+        }
+        .famous{
+            text-align: right;
+            font-size: 22px;
+        }
+        .page-con{
+            display: flex;
+            width: 100%;
+            height: 85.2vh;
+        }
+        .pc-nav{
+            
+            width: 10%;
+            height: 85.2vh;
+            background-color: rgb(114, 188, 188);
+        }
+       
+        .pc-nav a{
+            display: block;
+            width: 100%;
+            text-align: center;
+            padding-top: 78px;
+            padding-bottom: 0;
+
+        }
+        .pc-nav .first,.pc-nav a:hover{
+            color: orange;
+        }
+        .sport-section {
+            margin: 40px;
+            
+        }
+        .sport-title {
+            font-size: 25px;
+            margin-bottom: 10px;
+        }
+        .sport-subtitle {
+            font-size: 15px;
+            margin-bottom: 20px;
+        }
+        .image-container {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            height: 300px;
+            
+
+        }
+        .image-box {
+            width: 55%;
+            padding: 5px;
+            background-color: #ccc;
+            box-sizing: border-box;
+        }
+        .image-box img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .header {
+            
+            padding: 10px;
+            text-align: center;
+            font-size: 24px;
+            
+        }
+
+  
+
+    </style>
+</head>
+<body>
+    <div class="page">
+        <div class="page-top">
+            <a style="font-size: 40px;font-weight: 900;color:  orange;">我的个人网页</a>
+            <p class="famous">*I can do all things.</p>
+        </div>
+        <div class="page-con">
+            <div class="pc-nav">
+            <a href="index.html">首页</a>
+            <a href="个人简介.html">个人简介</a>
+            <a href="喜欢的音乐.html">喜欢的音乐</a>
+            <a href="喜欢的运动.html" class="first">喜欢的运动</a>
+            <a href="旅游碎片.html">旅游碎片</a>
+            </div>
+            <div class="header">
+                <div class="sport-section">
+                    <div class="sport-title">basketball</div>
+                    <div class="sport-subtitle"><a href="https://www.bilibili.com/video/BV1y14y1i7SG/?spm_id_from=333.337.search-card.all.click">Stephen Curry</a></div>
+                    <div class="image-container">
+                        <div class="image-box"><img src="img/b2b19c6c96f7cb6d36feab3d7dea97e0.png" alt="Basketball Image 1"></div>
+                        <div class="image-box"><img src="img/f6797b7e99f7cf9a788ffd4ea9bf09fd.png" alt="Basketball Image 2"></div>
+                    </div>
+                </div>
+                <div class="sport-section">
+                    <div class="sport-title">tennis ball</div>
+                    <div class="image-container">
+                        <div class="image-box"><img src="path_to_tennis1.jpg" alt="Tennis Image 1"></div>
+                        <div class="image-box"><img src="img/54133ddcd4507a8f0b0ab5189e15956f.png" alt="Tennis Image 2"></div>
+                    </div>
+                </div>
+            </div>
+
+
+            
+                
+            
+        </div>
+    </div>
+</body>
+</html>
